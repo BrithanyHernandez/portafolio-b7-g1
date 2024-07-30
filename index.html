@@ -37,7 +37,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="#">Yo</a>
               </li>
@@ -53,47 +53,14 @@
               <li class="nav-item">
                 <a class="nav-link  text-white" href="#contacto">Contacto</a>
               </li>
-             <!--  <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Proyectos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item " href="#">Testimonios</a></li>
-                  <li><a class="dropdown-item" href="#">Contacto</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div> -->
+            </ul>  
+          </div>
         </div>
       </nav>
     </header>
 
     <main>
-      <section id="presentacion" class="container col-xxl-8 px-4 py-5">
+      <section id="presentacion" class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img
@@ -128,104 +95,59 @@
       </section>
 
       <section id="habilidades" class="container px-4 py-5">
-        <h2 class="pb-2 border-bottom">Columns with icons</h2>
+        <h2 class="pb-2 border-bottom">Habilidades</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-            >
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#collection"></use>
-              </svg>
+                class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                <i class="bi bi-code-square"></i>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>
-              Paragraph of text beneath the heading to explain the heading.
-              We'll add onto it with another sentence and probably just keep
-              going until we run out of words.
-            </p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
+            <h3 class="fs-2 text-body-emphasis my-2">Desarrollo web</h3>
+            <p>Conocimientos en HTML, JS, CSS.</p>
           </div>
+
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-            >
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#people-circle"></use>
-              </svg>
+                class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                <i class="bi bi-people"></i>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>
-              Paragraph of text beneath the heading to explain the heading.
-              We'll add onto it with another sentence and probably just keep
-              going until we run out of words.
-            </p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
+            <h3 class="fs-2 text-body-emphasis my-2">Trabajo en equipo</h3>
+            <p>Colaboro con equipos multidisciplinarios.</p>
           </div>
+
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-            >
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#toggles2"></use>
-              </svg>
+                class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                <i class="bi bi-award"></i>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>
-              Paragraph of text beneath the heading to explain the heading.
-              We'll add onto it with another sentence and probably just keep
-              going until we run out of words.
-            </p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
+            <h3 class="fs-2 text-body-emphasis my-2">Responsabilidad</h3>
+            <p>Compromiso por mis responsabilidades.</p>
           </div>
+
         </div>
       </section>
 
       <section id="proyectos" class="container px-4 py-5">
-        <h2 class="pb-2 border-bottom">Custom cards</h2>
+        <h2 class="pb-2 border-bottom">Proyectos</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
           <div class="col">
-            <div
-              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-1.jpg')"
-            >
+            
+            <div id="proyecto-1"
+              class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+
               <div
                 class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
               >
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Short title, long jacket
+                  Clon de Google
                 </h3>
                 <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img
-                      src="https://github.com/twbs.png"
-                      alt="Bootstrap"
-                      width="32"
-                      height="32"
-                      class="rounded-circle border border-white"
-                    />
-                  </li>
                   <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>Earth</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>3d</small>
+                    <i class="bi bi-code-square"></i>
+                    <a href="http://" target="_blank" class="ps-3">URL</a>
                   </li>
                 </ul>
               </div>
@@ -233,44 +155,26 @@
           </div>
 
           <div class="col">
-            <div
-              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-2.jpg')"
-            >
-              <div
-                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
-              >
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Much longer title that wraps to multiple lines
-                </h3>
+
+            <div id="proyecto-2"
+             class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Juego: Manzanas</h3>
+
                 <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img
-                      src="https://github.com/twbs.png"
-                      alt="Bootstrap"
-                      width="32"
-                      height="32"
-                      class="rounded-circle border border-white"
-                    />
-                  </li>
                   <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>Pakistan</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>4d</small>
+                    <i class="bi bi-code-square"></i>
+                    <a href="http://" target="_blank" class="ps-3">URL</a>
                   </li>
                 </ul>
+
               </div>
             </div>
           </div>
 
-          <div class="col">
+          <!-- <div class="col">
             <div
               class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
               style="background-image: url('unsplash-photo-3.jpg')"
@@ -304,7 +208,7 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
